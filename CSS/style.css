@@ -1,0 +1,129 @@
+.header {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+  background-color: white;
+  max-width: 100%;
+}
+
+.youtube {
+  width: 150px;
+  margin-left: 10px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  align-items: center;
+}
+.search-p {
+  height: 35px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  margin-left: 5px;
+
+  align-items: center;
+}
+.profile-name {
+  max-width: 100%;
+  width: 300px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 25px;
+  margin-left: 15px;
+  flex-shrink: 0px;
+}
+.hambur {
+  cursor: pointer;
+  width: 25px;
+
+  padding-left: 0px;
+}
+.youtube-log {
+  cursor: pointer;
+  width: 90px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.search-input {
+  display: flex;
+  flex: 1;
+  height: 40px;
+
+  font-size: 20px;
+  border: 1px solid gray;
+  font-weight: 500px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.but-vo {
+  width: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: end;
+  margin-left: -3px;
+  cursor: pointer;
+}
+.but-search {
+  margin-left: 10px;
+  border-radius: 20px;
+  border: none;
+  margin-right: 15px;
+  height: 40px;
+  width: 35px;
+  cursor: pointer;
+}
+.input {
+  display: flex;
+  flex: 1;
+  width: 0;
+  padding-left: 5px;
+  font-size: 20px;
+  border: 1px solid gray;
+  font-weight: 500px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 2px rgb(205, 202, 202);
+}
+
+.voic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  cursor: pointer;
+}
+.searcher {
+  display: flex;
+  justify-content: center;
+  margin-right: 6px;
+  margin-top: 4px;
+
+  width: 25px;
+}
+.but-r {
+  width: 35px;
+  border: none;
+  background-color: #fff;
+  margin-left: 20px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.my-pro {
+  width: 30px;
+}
