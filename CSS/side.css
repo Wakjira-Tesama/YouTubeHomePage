@@ -1,0 +1,45 @@
+.side {
+  width: 70px;
+  align-items: end;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  height: 800px;
+}
+.sider {
+  width: 70px;
+  margin-top: 60px;
+}
+.img-ico {
+  width: 22px;
+  margin-left: 20px;
+}
+.img-ico:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.side-text {
+  font-size: 10px;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+.side-text1 {
+  font-size: 10px;
+  margin-left: 3px;
+  margin-top: 0px;
+}
+.side-text2 {
+  font-size: 10px;
+  margin-top: 0px;
+
+  margin-left: 12px;
+}
+.side-text3 {
+  font-size: 10px;
+  margin-top: 0px;
+}
+.side-text4 {
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: 15px;
+}
